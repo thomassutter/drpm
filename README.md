@@ -4,7 +4,7 @@ This is the official codebae for the Neurips 2023 paper [Differentiable Random P
 In this paper, we introduce the *Differentiable Random Partition Model (DRPM)*, a differentiable relaxation to incorporate RPMs into gradient-based learning frameworks.
 
 ## Two-stage Process
-![Two-stage process](drpm/twostage.png)
+![Two-stage process](twostage.png)
 
 ## Installation
 

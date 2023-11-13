@@ -8,7 +8,8 @@ The code for the experiment "partitioning of generative factors" is not yet read
 ## Two-stage Process
 In this paper, we introduce the *Differentiable Random Partition Model (DRPM)*, a differentiable relaxation to incorporate RPMs into gradient-based learning frameworks.
 
-The DRPM is based on the following two-stage process
+The DRPM is based on the following two-stage process:
+
 ![Two-stage process](files/twostage.png)
 
 ## Installation

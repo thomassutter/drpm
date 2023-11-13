@@ -1,0 +1,5 @@
+defaults:
+  - base_config
+  - dataset: celeba
+  - model: drpm
+  - log: log

@@ -1,5 +1,5 @@
 # Differentiable Random Partition Models
-This is the official codebae for the Neurips 2023 paper [Differentiable Random Partition Models](https://arxiv.org/abs/2305.16841).
+This is the official codebase for the Neurips 2023 paper [Differentiable Random Partition Models](https://arxiv.org/abs/2305.16841).
 
 The code and repository is still work in progress.
 
@@ -24,8 +24,13 @@ pip install .[pt]
 ```
 In order to run the multi-task experiment or the clustering experiment, please consult the `README.md` files in their respective experiment folder under `experiments/`.
 
+## Disclaimer
+The release of the code for the experiment *Partitioning of generative factors* is delayed. We work on transforming everything from tensorflow v1 to pytorch. Initially, we based our experiments on the ``disentanglement_Lib``, which is written in tensorflow v1. To improve the usability of the released code and make everything more future-proof, we rewrite the experiment in pytorch.
+Unnfortunately, this is still work in progress.
+
 ## Citation
-If you use our model in your own, please cite us using the following citation
+If you use our model in your work, please cite us using the following citation
+
 ```
 @inproceedings{sutterryser2023drpm,
   title={Differentiable Random Partition Models},

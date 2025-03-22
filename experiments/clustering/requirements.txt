@@ -1,7 +1,7 @@
 drpm
 torch>=2.2
 torchvision>=0.5,<0.15 
-pytorch-lightning==1.6.0
+pytorch-lightning==2.4.0
 umap-learn
 hydra
 hydra-core
